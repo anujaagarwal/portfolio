@@ -10,6 +10,7 @@ module.exports = {
       standard: "#151515",
       deep: "#111",
       soft: "#212023",
+      purple: "#800080",
     },
     fontFamily: {
       sans: "Open Sans",

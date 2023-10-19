@@ -568,16 +568,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
-}
-
 .ml-8{
   margin-left: 2rem;
 }
 
 .mr-3{
   margin-right: 0.75rem;
+}
+
+.mr-6{
+  margin-right: 1.5rem;
 }
 
 .mt-1{
@@ -610,18 +610,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mr-2{
-  margin-right: 0.5rem;
-}
-
-.mr-4{
-  margin-right: 1rem;
-}
-
-.mr-6{
-  margin-right: 1.5rem;
 }
 
 .block{
@@ -725,12 +713,12 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-none{
-  border-radius: 0px;
-}
-
 .border{
   border-width: 1px;
+}
+
+.border-2{
+  border-width: 2px;
 }
 
 .border-l{
@@ -752,29 +740,24 @@ video {
   border-color: rgb(154 91 255 / var(--tw-border-opacity));
 }
 
+.border-purple{
+  --tw-border-opacity: 1;
+  border-color: rgb(128 0 128 / var(--tw-border-opacity));
+}
+
 .bg-\[\#000000\]{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1a33a0\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 51 160 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#222\]{
   --tw-bg-opacity: 1;
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#41B883\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(65 184 131 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#54C5F8\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(84 197 248 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#66B35D\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(102 179 93 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#FACB2B\]{
@@ -810,26 +793,6 @@ video {
 .bg-standard{
   --tw-bg-opacity: 1;
   background-color: rgb(21 21 21 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#def132\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(222 241 50 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#2f3309\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(47 51 9 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#6fe2d9\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(111 226 217 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#1a33a0\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(26 51 160 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -1160,10 +1123,6 @@ video {
 
   .md\:rounded-none{
     border-radius: 0px;
-  }
-
-  .md\:rounded-full{
-    border-radius: 9999px;
   }
 
   .md\:px-16{
